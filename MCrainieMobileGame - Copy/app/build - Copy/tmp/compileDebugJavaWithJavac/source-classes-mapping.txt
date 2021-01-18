@@ -1,0 +1,4 @@
+com/example/mcrainiemobilegame/BuildConfig.java
+ com.example.mcrainiemobilegame.BuildConfig
+com/example/mcrainiemobilegame/MainActivity.java
+ com.example.mcrainiemobilegame.MainActivity
