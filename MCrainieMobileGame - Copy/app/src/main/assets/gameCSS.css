@@ -1,0 +1,215 @@
+ html {
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+ }
+
+ body {
+       background-image: url('images/khbackground2.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+
+
+ }
+
+
+
+ canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    outline-left: white 3px solid;
+ }
+
+ h1{
+
+ position:absolute;
+ font-size:2vw;
+ font-family: "Comic Sans MS";
+ color:black;
+ display:none;
+ padding-left: 46vw;
+ padding-top: 26vw;
+ z-index:1;
+ }
+
+button4{
+           position:absolute;
+           top:30vw;
+           left:80vw;
+
+           background-color: Transparent;
+           background-repeat:no-repeat;
+           border: none;
+           cursor:pointer;
+           overflow: hidden;
+           outline:none;
+           color:grey;
+           font-size: 5vw;
+           font-family:khfont;
+           text-align:center;
+           -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+           -webkit-tap-highlight-color: transparent;
+           -webkit-user-select: none;
+           -khtml-user-select: none;
+           -moz-user-select: none;
+           -ms-user-select: none;
+            user-select: none;
+            z-index:2;
+}
+
+button4:hover{
+
+
+        color:#ffd700
+}
+
+button2{
+           position:absolute;
+           top:35vw;
+           left:80vw;
+           padding:1px 1px;
+           background-color: Transparent;
+           background-repeat:no-repeat;
+           border: none;
+           cursor:pointer;
+           overflow: hidden;
+           outline:none;
+           color:grey;
+           font-size: 5vw;
+           font-family:khfont;
+           -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-tap-highlight-color: transparent;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+             user-select: none;
+             z-index:2;
+}
+
+button2:hover{
+
+
+        color:#ffd700
+}
+
+button3{
+           position:absolute;
+           top:40.5vw;
+           left:80vw;
+           background-color: Transparent;
+           background-repeat:no-repeat;
+           border: none;
+           cursor:pointer;
+           overflow: hidden;
+           outline:none;
+           color:grey;
+           font-size: 5.0vw;
+           font-family:khfont;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-tap-highlight-color: transparent;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+             user-select: none;
+             z-index:2;
+
+}
+
+button3:hover{
+
+
+        color:#ffd700
+}
+
+button5{
+           position:absolute;
+           top:28.75vw;
+           left:43vw;
+
+           background-color: Transparent;
+           background-repeat:no-repeat;
+           border: none;
+           cursor:pointer;
+           overflow: hidden;
+           outline:none;
+           color:black;
+           display:none;
+           font-size: 5vw;
+           font-family:khfont;
+           text-align:center;
+           -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-tap-highlight-color: transparent;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+             user-select: none;
+             z-index:2;
+}
+
+button6{
+           position:absolute;
+           top:28.75vw;
+           left:56vw;
+
+           background-color: Transparent;
+           background-repeat:no-repeat;
+           border: none;
+           cursor:pointer;
+           overflow: hidden;
+           outline:none;
+           color:black;
+           display:none;
+           font-size: 5vw;
+           font-family:khfont;
+           text-align:center;
+           -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-tap-highlight-color: transparent;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+             user-select: none;
+             z-index:2;
+}
+
+imgSpeechBubble{
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+img {
+       position:absolute;
+       width: 25vw;
+       height: 12vw;
+       display: none;
+       top: 25vw;
+       left: 38.5vw;
+       z-index:0;
+}
+
+p{
+
+}
+
+@font-face {
+    font-family: 'khfont';
+    src: url(khfont.ttf);
+    font-style: bold;
+    font-weight: 100;
+}
+
+ * {
+ margin:0;
+ padding:0;
+}
